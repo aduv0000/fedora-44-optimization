@@ -23,3 +23,30 @@ Copy this entire line, paste it into your terminal, and press Enter:
 
 ```bash
 git clone https://github.com/aduv0000/fedora-44-optimization.git && cd fedora-44-optimization && chmod +x fedora-setup.sh && ./fedora-setup.sh
+
+After it finishes, reboot your computer. That's the only manual step.
+
+📋 What's Expected After Reboot
+Your system feels faster and more responsive.
+
+Videos and streams play smoothly with less CPU usage.
+
+Your laptop battery lasts longer and manages power automatically.
+
+System updates happen quietly in the background, daily.
+
+If an update causes a problem, you can rollback using Btrfs snapshots.
+
+⚙️ For Advanced Users
+Want to see exactly what the script does or modify it for your needs?
+The entire script is contained in fedora-setup.sh. It is thoroughly commented so you can easily understand each section or disable specific tweaks.
+
+🤝 How to Contribute
+Found a bug or want to suggest a new tweak? We welcome all contributions!
+Please read our CONTRIBUTING.md guide to get started. No coding experience is required to open an issue.
+
+⚠️ Hardware Compatibility Note
+This script applies a zram optimization (vm.swappiness=180) that is ideal for systems with 16GB of RAM or less. If you are running a high-end desktop or a gaming laptop with dedicated graphics and >16GB RAM, you may want to skip that specific section or adjust the value. Check the script comments for details.
+
+📜 License
+This project is open-source and available for anyone to use, modify, and share freely.
