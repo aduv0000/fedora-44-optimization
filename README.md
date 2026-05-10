@@ -24,6 +24,7 @@ Copy this entire line, paste it into your terminal, and press Enter:
 ```bash
 git clone https://github.com/aduv0000/fedora-44-optimization.git && cd fedora-44-optimization && chmod +x fedora-setup.sh && ./fedora-setup.sh
 
+
 After it finishes, reboot your computer. That's the only manual step.
 
 📋 What's Expected After Reboot
