@@ -1,4 +1,11 @@
 #!/bin/bash
+
+#Version check
+if ! grep -q "Fedora Linux 44" /etc/os-release; then
+     echo "This script is designed for Fedora 44 only. Exiting.
+     exit 1
+fi
+
 # Fedora 44 Beginner-Friendly Setup Script
 # Just run: ./fedora-setup.sh
 # Then reboot. That's it.
